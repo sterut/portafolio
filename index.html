@@ -1,0 +1,201 @@
+<!--
+  Datos de contacto: stehlie@gmail.com / WhatsApp +54 9 387 2212 735
+  Sitio publicado en: https://sterut.github.io/portafolio/
+-->
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Erika Stehli — Fotografía gastronómica en Buenos Aires</title>
+<meta name="description" content="Fotografía gastronómica para restaurantes y apps de delivery. Fotos de platos, local y producto, listas para carta digital, Wolt, Uber Eats y redes. Buenos Aires.">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Erika Stehli — Fotografía gastronómica en Buenos Aires">
+<meta property="og:description" content="Fotos de platos pensadas para vender: claras, apetitosas y listas para apps de delivery, cartas digitales y redes.">
+<meta property="og:image" content="https://sterut.github.io/portafolio/fotos/hero.jpg">
+<meta property="og:url" content="https://sterut.github.io/portafolio/">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Favicon: iniciales "ES" en negro sobre blanco roto -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23F6F4EF'/%3E%3Ctext x='32' y='40' font-family='Arial, sans-serif' font-size='24' font-weight='600' fill='%23111111' text-anchor='middle'%3EES%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
+<!-- Definidas acá (y no en script.js) para que existan antes de que cualquier <img onerror> pueda dispararse -->
+<script>
+  function handleImgError(img) {
+    var container = img.closest('.photo');
+    if (!container) return;
+    img.style.display = 'none';
+    container.classList.add('img-placeholder');
+    container.classList.add('is-visible');
+  }
+
+  function handleOptionalImgError(img) {
+    var container = img.closest('.photo');
+    if (!container) return;
+    container.style.display = 'none';
+  }
+</script>
+</head>
+<body id="top">
+
+<header class="site-header">
+  <div class="wordmark">
+    <a href="#top">ERIKA STEHLI</a>
+    <p class="tagline">FOTOGRAFÍA<br>GASTRONÓMICA</p>
+  </div>
+  <nav class="main-nav" aria-label="Navegación principal">
+    <a href="#trabajo">TRABAJO</a>
+    <a href="#experiencia">EXPERIENCIA</a>
+    <a href="#como-trabajo">CÓMO TRABAJO</a>
+    <a href="#sobre-mi">SOBRE MÍ</a>
+    <a href="#contacto">CONTACTO</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="photo photo--hero" data-filename="hero.jpg">
+      <img src="fotos/hero.jpg" alt="Plato gastronómico fotografiado profesionalmente para restaurante" width="1600" height="950" onerror="handleImgError(this)">
+    </div>
+  </section>
+
+  <!-- LA CARTA -->
+  <section class="section-intro">
+    <div class="intro-grid">
+      <h2>LA CARTA</h2>
+      <div class="intro-copy">
+        <p>Fotos de platos pensadas para vender: claras, apetitosas y listas para apps de delivery, cartas digitales y redes.</p>
+        <a class="text-link" href="#trabajo">VER TRABAJO</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GRILLA DESTACADAS -->
+  <section class="photo-grid photo-grid--2">
+    <div class="photo" data-filename="destacada-01.jpg">
+      <img src="fotos/destacada-01.jpg" alt="Plato destacado de restaurante, presentación profesional" width="900" height="1125" loading="lazy" onerror="handleImgError(this)">
+    </div>
+    <div class="photo" data-filename="destacada-02.jpg">
+      <img src="fotos/destacada-02.jpg" alt="Plato destacado de restaurante, fotografía gastronómica" width="900" height="1125" loading="lazy" onerror="handleImgError(this)">
+    </div>
+  </section>
+
+  <!-- EXPERIENCIA (bloque verde oliva) -->
+  <section class="block-accent" id="experiencia">
+    <div class="accent-inner">
+      <h2 class="stacked-title">FOTOS DE CARTA<br>EN EL LOCAL<br>LISTAS PARA DELIVERY</h2>
+      <div class="accent-copy">
+        <p>Entre 2018 y 2024 trabajé en Berlín haciendo sesiones en restaurantes para Wolt, Uber Eats y Lieferando, a través de las plataformas de fotografía Meero y Ocus. Conozco las pautas técnicas de las apps de delivery y sé trabajar en el local, con el ritmo de la cocina y en tiempos cortos.</p>
+        <p class="clients">WOLT · UBER EATS · LIEFERANDO</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA / TRABAJO -->
+  <section class="gallery" id="trabajo">
+
+    <div class="gallery-block">
+      <h3>PLATOS</h3>
+      <div class="photo-grid photo-grid--2" data-group="platos">
+        <div class="photo" data-filename="plato-01.jpg"><img src="fotos/plato-01.jpg" alt="Plato de restaurante, fotografía gastronómica 01" width="900" height="1125" loading="lazy" onerror="handleImgError(this)"></div>
+        <div class="photo" data-filename="plato-02.jpg"><img src="fotos/plato-02.jpg" alt="Plato de restaurante, fotografía gastronómica 02" width="900" height="1125" loading="lazy" onerror="handleImgError(this)"></div>
+        <div class="photo" data-filename="plato-03.jpg"><img src="fotos/plato-03.jpg" alt="Plato de restaurante, fotografía gastronómica 03" width="900" height="1125" loading="lazy" onerror="handleImgError(this)"></div>
+        <div class="photo" data-filename="plato-04.jpg"><img src="fotos/plato-04.jpg" alt="Plato de restaurante, fotografía gastronómica 04" width="900" height="1125" loading="lazy" onerror="handleImgError(this)"></div>
+        <div class="photo" data-filename="plato-05.jpg"><img src="fotos/plato-05.jpg" alt="Plato de restaurante, fotografía gastronómica 05" width="900" height="1125" loading="lazy" onerror="handleImgError(this)"></div>
+        <div class="photo" data-filename="plato-06.jpg"><img src="fotos/plato-06.jpg" alt="Plato de restaurante, fotografía gastronómica 06" width="900" height="1125" loading="lazy" onerror="handleImgError(this)"></div>
+        <div class="photo" data-filename="plato-07.jpg"><img src="fotos/plato-07.jpg" alt="Plato de restaurante, fotografía gastronómica 07" width="900" height="1125" loading="lazy" onerror="handleImgError(this)"></div>
+        <div class="photo" data-filename="plato-08.jpg"><img src="fotos/plato-08.jpg" alt="Plato de restaurante, fotografía gastronómica 08" width="900" height="1125" loading="lazy" onerror="handleImgError(this)"></div>
+        <div class="photo" data-filename="plato-09.jpg"><img src="fotos/plato-09.jpg" alt="Plato de restaurante, fotografía gastronómica 09" width="900" height="1125" loading="lazy" onerror="handleImgError(this)"></div>
+        <div class="photo" data-filename="plato-10.jpg"><img src="fotos/plato-10.jpg" alt="Plato de restaurante, fotografía gastronómica 10" width="900" height="1125" loading="lazy" onerror="handleImgError(this)"></div>
+      </div>
+    </div>
+
+    <div class="gallery-block">
+      <h3>LOCAL Y AMBIENTE</h3>
+      <div class="photo-grid photo-grid--2" data-group="local">
+        <div class="photo" data-filename="local-01.jpg"><img src="fotos/local-01.jpg" alt="Ambiente del local del restaurante 01" width="900" height="600" loading="lazy" onerror="handleImgError(this)"></div>
+        <div class="photo" data-filename="local-02.jpg"><img src="fotos/local-02.jpg" alt="Ambiente del local del restaurante 02" width="900" height="600" loading="lazy" onerror="handleImgError(this)"></div>
+        <div class="photo" data-filename="local-03.jpg"><img src="fotos/local-03.jpg" alt="Ambiente del local del restaurante 03" width="900" height="600" loading="lazy" onerror="handleImgError(this)"></div>
+        <div class="photo" data-filename="local-04.jpg"><img src="fotos/local-04.jpg" alt="Ambiente del local del restaurante 04" width="900" height="600" loading="lazy" onerror="handleImgError(this)"></div>
+      </div>
+    </div>
+
+    <div class="gallery-block">
+      <h3>PRODUCTO Y BEBIDAS</h3>
+      <div class="photo-grid photo-grid--2" data-group="producto">
+        <div class="photo" data-filename="producto-01.jpg"><img src="fotos/producto-01.jpg" alt="Fotografía de producto y bebida 01" width="900" height="1125" loading="lazy" onerror="handleImgError(this)"></div>
+        <div class="photo" data-filename="producto-02.jpg"><img src="fotos/producto-02.jpg" alt="Fotografía de producto y bebida 02" width="900" height="1125" loading="lazy" onerror="handleImgError(this)"></div>
+        <div class="photo" data-filename="producto-03.jpg"><img src="fotos/producto-03.jpg" alt="Fotografía de producto y bebida 03" width="900" height="1125" loading="lazy" onerror="handleImgError(this)"></div>
+        <div class="photo" data-filename="producto-04.jpg"><img src="fotos/producto-04.jpg" alt="Fotografía de producto y bebida 04" width="900" height="1125" loading="lazy" onerror="handleImgError(this)"></div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- CÓMO TRABAJO -->
+  <section class="steps" id="como-trabajo">
+    <h2>CÓMO TRABAJO</h2>
+    <div class="steps-grid">
+      <div class="step">
+        <span class="step-number">01</span>
+        <h3>COORDINACIÓN</h3>
+        <p>Hablo con el local antes de la sesión para definir platos, estilo y qué necesita cada plataforma.</p>
+      </div>
+      <div class="step">
+        <span class="step-number">02</span>
+        <h3>SESIÓN</h3>
+        <p>Fotografío en el lugar, en 1 a 2 horas, adaptándome al ritmo de la cocina.</p>
+      </div>
+      <div class="step">
+        <span class="step-number">03</span>
+        <h3>ENTREGA</h3>
+        <p>Entrego las fotos editadas y listas para subir a apps de delivery, carta digital y redes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MÍ -->
+  <section class="about" id="sobre-mi">
+    <div class="photo photo--about" data-filename="erika.jpg">
+      <img src="fotos/erika.jpg" alt="Retrato de Erika Stehli, fotógrafa gastronómica" width="900" height="1125" loading="lazy" onerror="handleOptionalImgError(this)">
+    </div>
+    <div class="about-copy">
+      <h2>SOBRE MÍ</h2>
+      <p>Soy fotógrafa argentina, con base en Buenos Aires. Estudié en la Escuela de Fotografía Creativa Andy Goldstein y viví en Berlín entre 2018 y 2024, donde trabajé en fotografía gastronómica, de producto y retrato.</p>
+      <a class="text-link" href="https://erikastehli.com" target="_blank" rel="noopener">VER PORTFOLIO COMPLETO →</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- CONTACTO -->
+<footer class="contact" id="contacto">
+  <h2>HABLEMOS</h2>
+  <div class="contact-links">
+    <a href="mailto:stehlie@gmail.com">stehlie@gmail.com</a>
+    <a href="https://wa.me/5493872212735?text=Hola%20Erika%2C%20vi%20tu%20portfolio%20de%20fotograf%C3%ADa%20gastron%C3%B3mica" target="_blank" rel="noopener">WHATSAPP</a>
+  </div>
+  <p class="copyright">© 2026 Erika Stehli</p>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" id="lightbox-close" aria-label="Cerrar">✕</button>
+  <button class="lightbox-prev" id="lightbox-prev" aria-label="Foto anterior">←</button>
+  <img class="lightbox-img" id="lightbox-img" src="" alt="">
+  <button class="lightbox-next" id="lightbox-next" aria-label="Foto siguiente">→</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
